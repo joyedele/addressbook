@@ -1,0 +1,12 @@
+<web-app>
+<servlet>
+	<servlet-name>addressBookServlet</servlet-name>
+	<servlet-class>addressbook.servlet.AddressBookServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>addressBookServlet</servlet-name>
+	<url-pattern>/addressBookServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
